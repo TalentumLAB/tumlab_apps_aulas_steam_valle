@@ -5,7 +5,7 @@ const ENABLED_FOOTER = true;
 const addApps = [
   {
     category_name: 'Plataformas LMS',
-    enable: false,
+    enable: true,
     children: [
       {
         order: 1,
@@ -31,7 +31,7 @@ const addApps = [
   },
   {
     category_name: 'Temas lúdicos',
-    enable: true,
+    enable: false,
     children: [
       {
         order: 1,
@@ -57,7 +57,7 @@ const addApps = [
   },
   {
     category_name: 'Simuladores',
-    enable: true,
+    enable: false,
     children: [
       {
         order: 1,
@@ -99,7 +99,7 @@ const addApps = [
   },
   {
     category_name: 'Contenido informativo',
-    enable: true,
+    enable: false,
     children: [
       {
         order: 1,
